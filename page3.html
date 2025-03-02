@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Регистрация</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .montserrat-uniquifier > {
+        font-family: "Montserrat", serif;
+      }
+      .playfair-display {
+        font-family: "Playfair Display", serif;
+      }
+    </style>
+  </head>
+  <body class="bg-white text-black">
+    <header
+      class="bg-white text-black p-4 flex justify-between items-center shadow-lg pl-[89px] pr-[89px]"
+    >
+      <div class="flex items-center space-x-[11px]">
+        <svg
+          width="46"
+          height="47"
+          viewBox="0 0 46 47"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <rect y="3" width="46" height="42" rx="5" fill="#FF8C00" />
+          <path
+            d="M12.836 36.074C12.836 35.81 12.908 35.534 13.052 35.246C13.196 34.946 13.502 34.598 13.97 34.202C14.438 33.794 15.164 33.296 16.148 32.708C17.144 32.132 18.05 31.598 18.866 31.106C19.682 30.602 20.504 30.116 21.332 29.648C23 28.712 24.302 27.782 25.238 26.858C26.174 25.934 26.828 24.974 27.2 23.978C27.584 22.97 27.776 21.884 27.776 20.72C27.776 19.94 27.674 19.19 27.47 18.47C27.266 17.75 26.924 17.102 26.444 16.526C25.976 15.95 25.34 15.494 24.536 15.158C23.732 14.822 22.724 14.648 21.512 14.636C20.276 14.624 19.22 14.816 18.344 15.212C17.48 15.608 16.82 16.16 16.364 16.868C15.92 17.564 15.704 18.368 15.716 19.28C15.74 20.54 16.118 21.53 16.85 22.25C17.582 22.958 18.548 23.312 19.748 23.312C20.672 23.312 21.398 23.102 21.926 22.682C22.466 22.25 22.736 21.692 22.736 21.008C22.736 20.504 22.622 20.126 22.394 19.874C22.166 19.622 21.86 19.496 21.476 19.496C21.128 19.496 20.87 19.574 20.702 19.73C20.534 19.874 20.39 20.048 20.27 20.252C20.162 20.456 20.018 20.636 19.838 20.792C19.658 20.936 19.376 21.008 18.992 21.008C18.632 21.008 18.35 20.894 18.146 20.666C17.942 20.426 17.84 20.12 17.84 19.748C17.84 18.956 18.2 18.326 18.92 17.858C19.64 17.39 20.528 17.168 21.584 17.192C22.88 17.204 23.846 17.576 24.482 18.308C25.13 19.028 25.436 20.012 25.4 21.26C25.388 21.92 25.244 22.526 24.968 23.078C24.692 23.63 24.308 24.104 23.816 24.5C23.66 24.644 23.486 24.77 23.294 24.878C23.102 24.986 22.904 25.088 22.7 25.184C22.52 25.268 22.334 25.34 22.142 25.4C21.95 25.46 21.752 25.52 21.548 25.58C21.296 25.628 21.044 25.664 20.792 25.688C20.54 25.712 20.276 25.724 20 25.724C19.628 25.724 19.256 25.706 18.884 25.67C18.512 25.622 18.164 25.556 17.84 25.472C17.612 25.412 17.39 25.34 17.174 25.256C16.97 25.172 16.76 25.088 16.544 25.004C16.364 24.932 16.19 24.854 16.022 24.77C15.866 24.674 15.704 24.572 15.536 24.464C14.744 23.9 14.126 23.174 13.682 22.286C13.238 21.386 13.016 20.348 13.016 19.172C13.016 17.948 13.25 16.874 13.718 15.95C14.198 15.026 14.846 14.258 15.662 13.646C16.478 13.034 17.408 12.572 18.452 12.26C19.508 11.948 20.612 11.792 21.764 11.792C21.968 11.792 22.166 11.792 22.358 11.792C22.55 11.792 22.736 11.804 22.916 11.828C23.12 11.84 23.318 11.858 23.51 11.882C23.702 11.906 23.888 11.936 24.068 11.972C24.248 12.008 24.428 12.044 24.608 12.08C24.788 12.116 24.968 12.164 25.148 12.224C25.748 12.404 26.3 12.632 26.804 12.908C27.308 13.172 27.764 13.496 28.172 13.88C28.304 13.988 28.424 14.102 28.532 14.222C28.64 14.342 28.748 14.468 28.856 14.6C29.024 14.78 29.18 14.972 29.324 15.176C29.468 15.368 29.6 15.572 29.72 15.788C30.224 16.664 30.602 17.684 30.854 18.848C31.106 20 31.232 21.296 31.232 22.736C31.232 24.08 31.232 25.4 31.232 26.696C31.232 27.992 31.232 29.24 31.232 30.44C31.232 31.628 31.226 32.744 31.214 33.788C31.202 34.82 31.184 35.744 31.16 36.56C31.148 37.184 31.01 37.652 30.746 37.964C30.494 38.276 30.152 38.432 29.72 38.432C29.312 38.432 28.988 38.294 28.748 38.018C28.508 37.742 28.376 37.328 28.352 36.776C28.34 36.536 28.328 36.302 28.316 36.074C28.304 35.834 28.292 35.606 28.28 35.39C28.268 35.174 28.256 34.976 28.244 34.796C28.232 34.448 28.172 34.184 28.064 34.004C27.956 33.812 27.764 33.716 27.488 33.716C27.296 33.716 27.02 33.782 26.66 33.914C26.312 34.046 26.036 34.16 25.832 34.256C25.46 33.176 25.064 32.396 24.644 31.916C24.224 31.436 23.804 31.28 23.384 31.448C23.036 31.58 22.856 31.838 22.844 32.222C22.832 32.594 22.922 33.044 23.114 33.572C23.306 34.088 23.528 34.628 23.78 35.192C23.516 35.312 23.186 35.462 22.79 35.642C22.406 35.81 22.088 35.948 21.836 36.056C21.404 34.772 20.972 33.92 20.54 33.5C20.108 33.068 19.664 32.96 19.208 33.176C18.836 33.356 18.722 33.764 18.866 34.4C19.01 35.024 19.34 35.804 19.856 36.74C19.028 37.1 18.158 37.37 17.246 37.55C16.346 37.73 15.596 37.832 14.996 37.856C14.3 37.868 13.766 37.718 13.394 37.406C13.022 37.082 12.836 36.638 12.836 36.074ZM14.222 31.088C13.67 31.088 13.232 30.914 12.908 30.566C12.596 30.206 12.44 29.714 12.44 29.09C12.44 28.574 12.62 28.166 12.98 27.866C13.352 27.566 13.832 27.416 14.42 27.416C14.924 27.416 15.338 27.584 15.662 27.92C15.986 28.244 16.148 28.7 16.148 29.288C16.148 29.876 15.98 30.326 15.644 30.638C15.308 30.938 14.834 31.088 14.222 31.088ZM29.036 31.988L29.108 29.54C29.684 29.504 30.104 29.57 30.368 29.738C30.632 29.894 30.764 30.2 30.764 30.656C30.764 31.172 30.614 31.526 30.314 31.718C30.026 31.898 29.6 31.988 29.036 31.988ZM28.316 27.416L28.388 25.004C29.348 24.968 30.044 25.034 30.476 25.202C30.908 25.358 31.124 25.664 31.124 26.12C31.124 26.624 30.86 26.966 30.332 27.146C29.816 27.326 29.144 27.416 28.316 27.416Z"
+            fill="white"
+          />
+        </svg>
+        <a href="index.html" class="text-5xl font-bold playfair-display"
+          >AfishaYkt</a
+        >
+      </div>
+
+      <nav class="flex space-x-[32px]">
+        <div class="flex justify-center gap-2.5">
+          <svg
+            class="size-8"
+            width="49"
+            height="49"
+            viewBox="0 0 49 49"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <rect width="49" height="49" fill="url(#pattern0_5_52)" />
+            <defs>
+              <pattern
+                id="pattern0_5_52"
+                patternContentUnits="objectBoundingBox"
+                width="1"
+                height="1"
+              >
+                <use xlink:href="#image0_5_52" transform="scale(0.0078125)" />
+              </pattern>
+              <image
+                id="image0_5_52"
+                width="128"
+                height="128"
+                preserveAspectRatio="none"
+                xlink:href="data:image/png;base64,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"
+              />
+            </defs>
+          </svg>
+
+          <h1 class="text-2xl font-normal">-25</h1>
+        </div>
+        <a
+          href="./page3.html"
+          class="hover:underline text-2xl font-medium montserrat-uniquifier"
+          >Регистрация</a
+        >
+        <a
+          href="#"
+          class="hover:underline text-2xl font-medium montserrat-uniquifier"
+          >Войти</a
+        >
+      </nav>
+    </header>
+    <div class="bg-gradient-to-r from-orange-400 to-orange-600 h-screen flex items-center justify-center px-4">
+        <div class="bg-white rounded-xl shadow-lg p-8 max-w-md w-full">
+          <!-- Заголовок -->
+          <h1 class="text-3xl font-bold text-center montserrat-uniquifier mb-8">
+            Войти или зарегистрироваться
+          </h1>
+      
+          <!-- Поле ввода телефона -->
+          <div class="mb-6">
+            <div class="flex items-center border rounded-lg px-4 py-3">
+              <span class="text-gray-600 montserrat-uniquifier">+7</span>
+              <input 
+                type="tel"
+                placeholder="Введите номер телефона"
+                class="ml-2 flex-1 outline-none montserrat-uniquifier"
+              >
+            </div>
+          </div>
+      
+          <!-- Кнопка продолжения -->
+            <a href="./index.html"> 
+          <button class="w-full bg-orange-500 text-white py-3 rounded-lg 
+                      montserrat-uniquifier hover:bg-orange-600 transition-colors">
+                      Продолжить
+           
+          </button>
+            </a>
+          <!-- Условия использования -->
+          <div class="mt-8 text-center text-sm montserrat-uniquifier">
+            <p class="mb-2">
+              Регистрируясь или авторизуясь,<br>
+              вы принимаете 
+              <a href="#" class="text-orange-500 hover:underline">Условия использования</a><br>
+              и 
+              <a href="#" class="text-orange-500 hover:underline">Политику конфиденциальности</a>
+            </p>
+          </div>
+        </div>
+      </div>
+  </body>
+</html>
